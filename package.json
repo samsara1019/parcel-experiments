@@ -1,0 +1,27 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "Setting up a professional React project with Parcel as a code bundler.",
+  "main": "index.js",
+  "repository": "https://github.com/samsara1019/parcel-experiments",
+  "author": "samsara <samsara1019@naver.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "typography": "^0.16.17"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.9.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
+  }
+}

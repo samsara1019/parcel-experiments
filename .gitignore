@@ -53,6 +53,8 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+.cache
+dist
 
 # dotenv environment variables file
 .env
